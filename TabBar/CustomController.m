@@ -12,6 +12,12 @@
 #import "BaseNavigationViewController.h"
 #import "ThirdViewController.h"
 #import "UIImage+Color.h"
+
+// 字体设置
+#define TITLE_NORMAL_COLOR   [UIColor colorWithRed:20/255.0 green:20/255.0 blue:120/255.0 alpha:1]
+#define TITLE_SELECTED_COLOR [UIColor colorWithRed:20/255.0 green:152/255.0 blue:172/255.0 alpha:1]
+#define TITLE_FONT           [UIFont fontWithName:@"AmericanTypewriter" size:14.0f]
+
 @interface CustomController ()
 
 @end
@@ -39,8 +45,8 @@
     }
     self.viewControllers=navigationArray;
     UITabBarItem *item = [UITabBarItem appearance];
-    [item setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor purpleColor], NSFontAttributeName:[UIFont fontWithName:@"AmericanTypewriter" size:14.0f]} forState:UIControlStateNormal];
-    [item setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor colorWithRed:20/255.0 green:152/255.0 blue:172/255.0 alpha:1], NSFontAttributeName:[UIFont fontWithName:@"AmericanTypewriter" size:14.0f]} forState:UIControlStateSelected];
+    [item setTitleTextAttributes:@{NSForegroundColorAttributeName:TITLE_NORMAL_COLOR, NSFontAttributeName:TITLE_FONT} forState:UIControlStateNormal];
+    [item setTitleTextAttributes:@{NSForegroundColorAttributeName:TITLE_SELECTED_COLOR, NSFontAttributeName:TITLE_FONT} forState:UIControlStateSelected];
     //设置选择后的高亮
     //self.tabBar.selectionIndicatorImage =[UIImage imageNamed:@"back_Icon@2x.png"];
     //设置背景

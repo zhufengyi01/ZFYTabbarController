@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.navigationBar.barTintColor =[UIColor redColor];
+    self.navigationBar.barTintColor =[UIColor whiteColor];
    //防止手势失效的解决方案
     self.delegate=self;
     self.interactivePopGestureRecognizer.delegate=self;
