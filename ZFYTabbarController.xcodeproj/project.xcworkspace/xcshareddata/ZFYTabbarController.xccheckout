@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2D0CC126-3E5C-4A6F-93BF-5E03147BF1DB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZFYTabbarController</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0DA2D9CAF1CBE09911D4EE1146F7970368917126</key>
+		<string>https://github.com/zhufengyi01/ZFYTabbarController.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZFYTabbarController.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0DA2D9CAF1CBE09911D4EE1146F7970368917126</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhufengyi01/ZFYTabbarController.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0DA2D9CAF1CBE09911D4EE1146F7970368917126</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0DA2D9CAF1CBE09911D4EE1146F7970368917126</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZFYTabbarController</string>
+		</dict>
+	</array>
+</dict>
+</plist>
