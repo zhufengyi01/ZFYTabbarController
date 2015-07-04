@@ -12,11 +12,6 @@
 #import "BaseNavigationViewController.h"
 #import "ThirdViewController.h"
 #import "ZFYTabbar.h"
-// 字体设置
-//#define TITLE_NORMAL_COLOR   [UIColor colorWithRed:20/255.0 green:20/255.0 blue:120/255.0 alpha:1]
-//#define TITLE_SELECTED_COLOR [UIColor colorWithRed:20/255.0 green:152/255.0 blue:172/255.0 alpha:1]
-//#define TITLE_FONT           [UIFont fontWithName:@"AmericanTypewriter" size:14.0f]
-//
 @interface CustomController ()
 
 @end
@@ -28,10 +23,12 @@
     // Do any additional setup after loading the view.
     self.tabBar.barTintColor = Tab_BAR__BACK_CLOLOR;
     self.tabBar.translucent= NO;
+    
     NSArray  *classNameArray =[NSArray arrayWithObjects:@"FirstViewController",@"SecondViewController",@"ThirdViewController", nil];
     NSArray *titleArray =[NSArray arrayWithObjects:@"first",@"second",@"third", nil];
     NSArray *normalImageArray =[NSArray arrayWithObjects:@"feed_tab_butten_normal.png",@"movie_tab_butten_normal.png",@"me_tab_butten_normal.png",nil];
     NSArray *selectImageArray =[NSArray arrayWithObjects:@"feed_tab_butten_press.png",@"movie_tab_butten_press.png",@"me_tab_butten_press.png", nil];
+    
     NSMutableArray  *navigationArray =[[NSMutableArray alloc]init];
     for (int i=0; i<classNameArray.count; i++) {
         UIViewController  *vc =(UIViewController *)[[NSClassFromString(classNameArray[i]) alloc] init];
