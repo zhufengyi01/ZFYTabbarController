@@ -6,8 +6,8 @@
 //  Copyright (c) 2015年 朱封毅. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "RootViewController.h"
 
-@interface FirstViewController : BaseViewController
+@interface FirstViewController : RootViewController
 
 @end

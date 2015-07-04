@@ -1,2 +1,3 @@
 # ZFYTabbarController
-使用方法：
+文件结构
+主要宝航了
