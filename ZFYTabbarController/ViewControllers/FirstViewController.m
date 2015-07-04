@@ -20,12 +20,12 @@
     //创建左边系统的导航栏按钮
     [self createLeftSystemNavigationItemWith:UIBarButtonSystemItemAdd];
     //创建右边自定义的按钮
-    [self creatRightNavigationItem:[UIImage imageNamed:@"feed_tab_butten_press.png"] Title:nil];
+    [self creatRightNavigationItem:[UIImage imageNamed:@"me_tab_butten_normal.png"] Title:nil];
     
-    self.view.backgroundColor =[UIColor redColor];
+    self.view.backgroundColor =[UIColor purpleColor];
     UIButton  *btn =[UIButton buttonWithType:UIButtonTypeCustom];
     btn.frame=CGRectMake((self.view.frame.size.width-100)/2, 200, 100, 40);
-    btn.backgroundColor =[UIColor yellowColor];
+    btn.backgroundColor =[UIColor redColor];
     [btn setTitle:@"click me " forState:UIControlStateNormal];
     [btn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];

@@ -7,7 +7,7 @@
 //
 
 #import "RootViewController.h"
-#import "UIImage+Color.h"
+
 @implementation RootViewController
 -(void)loadView
 {
@@ -15,8 +15,7 @@
 }
 -(void)viewDidLoad
 {
-    self.view.backgroundColor =[UIColor lightGrayColor];
-    [self.navigationController.navigationBar setShadowImage:[UIImage imageWithColor:[UIColor clearColor]]];
+    self.view.backgroundColor =[UIColor lightGrayColor];  
 }
 -(void)createLeftNavigationItem:(UIImage*) leftImage Title:(NSString*)leftTitle
 {

@@ -7,7 +7,6 @@
 //
 
 #import "BaseNavigationViewController.h"
-#import "UIImage+Color.h"
 #import "ZFYTabbar.h"
 @interface BaseNavigationViewController ()<UINavigationControllerDelegate,UIGestureRecognizerDelegate>
 
@@ -31,6 +30,8 @@
     UIBarButtonItem *baritem =[UIBarButtonItem appearanceWhenContainedIn:[UINavigationBar class], nil];
     UIOffset offset;
     offset.horizontal = -500;
+    //设置返回按钮的字体大小
+    //[baritem  setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:12]} forState:UIControlStateNormal];
     [baritem setBackButtonTitlePositionAdjustment:offset forBarMetrics:UIBarMetricsDefault];
     NSDictionary *titleAttributes = [NSDictionary dictionaryWithObjectsAndKeys:Nav_Title_Color,NSForegroundColorAttributeName,Nav_Title_Font,NSFontAttributeName, nil];
     [[UINavigationBar appearance] setTitleTextAttributes:titleAttributes];

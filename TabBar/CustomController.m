@@ -26,7 +26,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.tabBar.backgroundImage =[UIImage imageWithColor:[UIColor whiteColor]];
+    self.tabBar.barTintColor = Tab_BAR__BACK_CLOLOR;
+    self.tabBar.translucent= NO;
     NSArray  *classNameArray =[NSArray arrayWithObjects:@"FirstViewController",@"SecondViewController",@"ThirdViewController", nil];
     NSArray *titleArray =[NSArray arrayWithObjects:@"first",@"second",@"third", nil];
     NSArray *normalImageArray =[NSArray arrayWithObjects:@"feed_tab_butten_normal.png",@"movie_tab_butten_normal.png",@"me_tab_butten_normal.png",nil];
