@@ -20,6 +20,7 @@
 		38C334E81B4199B30003629F /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C334E21B4199B30003629F /* ThirdViewController.m */; };
 		38C334ED1B4199FC0003629F /* CustomController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C334EC1B4199FC0003629F /* CustomController.m */; };
 		38C334F01B419A270003629F /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C334EF1B419A270003629F /* BaseNavigationViewController.m */; };
+		38D06E171B48CB9F009FB400 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D06E161B48CB9F009FB400 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		38D2B8E01B4835F60053EBC7 /* back_Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38D2B8D21B4835F60053EBC7 /* back_Icon@2x.png */; };
 		38D2B8E11B4835F60053EBC7 /* back_Icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38D2B8D31B4835F60053EBC7 /* back_Icon@3x.png */; };
 		38D2B8E21B4835F60053EBC7 /* feed_tab_butten_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38D2B8D41B4835F60053EBC7 /* feed_tab_butten_normal@2x.png */; };
@@ -73,6 +74,8 @@
 		38C334EC1B4199FC0003629F /* CustomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomController.m; sourceTree = "<group>"; };
 		38C334EE1B419A270003629F /* BaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
 		38C334EF1B419A270003629F /* BaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
+		38D06E151B48CB9F009FB400 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		38D06E161B48CB9F009FB400 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		38D2B8D21B4835F60053EBC7 /* back_Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_Icon@2x.png"; sourceTree = "<group>"; };
 		38D2B8D31B4835F60053EBC7 /* back_Icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_Icon@3x.png"; sourceTree = "<group>"; };
 		38D2B8D41B4835F60053EBC7 /* feed_tab_butten_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed_tab_butten_normal@2x.png"; sourceTree = "<group>"; };
@@ -186,6 +189,7 @@
 		38C334EA1B4199FC0003629F /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				38D06E141B48CB9F009FB400 /* FDFullscreenPopGesture */,
 				38D2B8D11B4835F60053EBC7 /* TabImage */,
 				38C334EE1B419A270003629F /* BaseNavigationViewController.h */,
 				38C334EF1B419A270003629F /* BaseNavigationViewController.m */,
@@ -194,6 +198,15 @@
 				385F8E3E1B47DF4300EDCEF1 /* ZFYTabbar.h */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		38D06E141B48CB9F009FB400 /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				38D06E151B48CB9F009FB400 /* UINavigationController+FDFullscreenPopGesture.h */,
+				38D06E161B48CB9F009FB400 /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = FDFullscreenPopGesture;
 			sourceTree = "<group>";
 		};
 		38D2B8D11B4835F60053EBC7 /* TabImage */ = {
@@ -331,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38D06E171B48CB9F009FB400 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				38C334E71B4199B30003629F /* SecondViewController.m in Sources */,
 				38C334E51B4199B30003629F /* FirstViewController.m in Sources */,
 				385F8E3A1B47DCED00EDCEF1 /* RootViewController.m in Sources */,

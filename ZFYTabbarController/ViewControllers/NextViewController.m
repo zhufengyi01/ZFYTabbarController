@@ -7,6 +7,7 @@
 //
 
 #import "NextViewController.h"
+#import "UINavigationController+FDFullscreenPopGesture.h"
 
 @interface NextViewController ()
 
@@ -17,7 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor =[UIColor purpleColor];
+    self.fd_prefersNavigationBarHidden=NO;
+    self.view.backgroundColor =[UIColor brownColor];
 }
 
 - (void)didReceiveMemoryWarning {

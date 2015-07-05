@@ -7,6 +7,7 @@
 //
 
 #import "BaseNavigationViewController.h"
+#import "UINavigationController+FDFullscreenPopGesture.h"
 #import "ZFYTabbar.h"
 @interface BaseNavigationViewController ()<UINavigationControllerDelegate,UIGestureRecognizerDelegate>
 
@@ -20,6 +21,7 @@
     self.navigationBar.translucent = NO;
     self.navigationBar.barTintColor = Nav_background_Color;
     self.navigationBar.tintColor = Nav_tintColor;
+    self.fd_fullscreenPopGestureRecognizer.enabled=YES;
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault animated:YES];
     //设置返回的箭头自定义图片
     [[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];

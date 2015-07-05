@@ -7,7 +7,7 @@
 //
 
 #import "RootViewController.h"
-
+#import "UINavigationController+FDFullscreenPopGesture.h"
 @implementation RootViewController
 -(void)loadView
 {
@@ -15,6 +15,7 @@
 }
 -(void)viewDidLoad
 {
+    self.fd_interactivePopDisabled=NO;
     self.view.backgroundColor =[UIColor lightGrayColor];  
 }
 -(void)createLeftNavigationItem:(UIImage*) leftImage Title:(NSString*)leftTitle
