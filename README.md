@@ -4,7 +4,6 @@
 点击进入CustomController.m
 NSArray *normalImageArray =[NSArray arrayWithObjects:@"feed_tab_butten_normal.png",@"movie_tab_butten_normal.png",@"me_tab_butten_normal.png",nil];
 NSArray *selectImageArray =[NSArray arrayWithObjects:@"feed_tab_butten_press.png",@"movie_tab_butten_press.png",@"me_tab_butten_press.png", nil];
-
 替换成自己的两套图片
 
 2.如何更换tabar的标题
@@ -53,5 +52,5 @@ self.fd_fullscreenPopGestureRecognizer.enabled=YES; 设置成NO
 需要隐藏某一个页面的导航条
 self.fd_prefersNavigationBarHidden=NO; 设置成YES
 
-未来会一直维护，大家可以加入学习千锋顶级讲师的游戏开发教程 
+6.未来会一直维护，大家可以加入学习千锋顶级讲师的游戏开发教程 
 跟健哥诚哥虐菜iOS游戏群：148929061   
