@@ -6,10 +6,11 @@ NSArray *normalImageArray =[NSArray arrayWithObjects:@"feed_tab_butten_normal.pn
 NSArray *selectImageArray =[NSArray arrayWithObjects:@"feed_tab_butten_press.png",@"movie_tab_butten_press.png",@"me_tab_butten_press.png", nil];
 替换成自己的两套图片
 
+==============
 2.如何更换tabar的标题
 进入CustomController.m
 NSArray *titleArray =[NSArray arrayWithObjects:@"first",@"second",@"third", nil];
-
+==============
 3. 如何把几个标签页换成自己的页面
 //进入CustomController.m
 //#import "FirstViewController.h"
@@ -18,11 +19,9 @@ NSArray *titleArray =[NSArray arrayWithObjects:@"first",@"second",@"third", nil]
 变成自己的
 NSArray  *classNameArray =[NSArray arrayWithObjects:@"FirstViewController",@"SecondViewController",@"ThirdViewController", nil];
 也变成自己的文件名
-
-
+===============
 4.其他修改导航条或标签栏的基本用法都放在了
 ZFYTabbar.h  头文件中
-
 //导航栏色调设置
 //#define Nav_tintColor             [UIColor colorWithRed:200.0/255.0 green:100.0/255.0 blue:100.0/255.0 alpha:1];
 //导航栏的背景颜色
