@@ -38,10 +38,10 @@ NSArray *titleArray =[NSArray arrayWithObjects:@"first",@"second",@"third", nil]
 先要感谢下提供全屏侧滑技术的大神，我把他的库加入了工程中，使一件支持全屏侧滑
 <pre>https://github.com/forkingdog/FDFullscreenPopGesture</pre>
 ###5. 默认自带右滑全屏返回，如果不需要此功能，BaseNavigationViewController.m 文件中
-<pre><code>self.fd_fullscreenPopGestureRecognizer.enabled=YES; 设置成NO
->在RootViewController.m 文件中把    self.fd_interactivePopDisabled=NO; 设置成YES
->//需要隐藏某一个页面的导航条
->self.fd_prefersNavigationBarHidden=NO; 设置成YES
+<pre><code>
+self.fd_fullscreenPopGestureRecognizer.enabled=YES; 设置成NO
+在RootViewController.m 文件中把  self.fd_interactivePopDisabled=NO; 设置成YES
+//需要隐藏某一个页面的导航条    self.fd_prefersNavigationBarHidden=NO; 设置成YES
 </code></pre>
 *********************************
 ###6.未来会一直维护，希望您看完觉得有用star一下，你的star是本猿学习动力哦
