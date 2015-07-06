@@ -12,7 +12,6 @@ NSArray *titleArray =[NSArray arrayWithObjects:@"first",@"second",@"third", nil]
 #import "ThirdViewController.h"
 变成自己的
 < NSArray  *classNameArray =[NSArray arrayWithObjects:@"FirstViewController",@"SecondViewController",@"ThirdViewController", nil];</code></pre>
->//#pragma mark  ---Tabbar   config
 ###4.其他修改导航条或标签栏的基本用法都放在了
 <pre><code>ZFYTabbar.h  头文件中
 导航栏色调设置
