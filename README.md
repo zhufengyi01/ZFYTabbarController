@@ -25,8 +25,8 @@ NSArray *titleArray =[NSArray arrayWithObjects:@"first",@"second",@"third", nil]
 #define Nav_Title_Color           [UIColor colorWithRed:200.0/255.0 green:200.0/255.0 blue:200.0/255.0 alpha:1]
 设置返回按钮的图片
 #define Nav_back_icon             [[UIImage imageNamed:@"back_Icon.png"]
-
-//#pragma mark  ---Tabbar   config
+</code></pre>
+<pre><code>#pragma mark  ---Tabbar   config
 字体未选中颜色设置
 #define Tab_TITLE_NORMAL_COLOR   [UIColor colorWithRed:20/255.0 green:20/255.0 blue:120/255.0 alpha:1] 字体已选中颜色设置
 #define Tab_TITLE_SELECTED_COLOR [UIColor colorWithRed:20/255.0 green:152/255.0 blue:172/255.0 alpha:1]
