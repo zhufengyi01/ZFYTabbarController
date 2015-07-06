@@ -45,7 +45,7 @@ NSArray *titleArray =[NSArray arrayWithObjects:@"first",@"second",@"third", nil]
 >self.fd_prefersNavigationBarHidden=NO; 设置成YES
 </code></pre>
 *********************************
-###6.未来会一直维护，大家可以加入学习千锋顶级讲师的游戏开发教程 
+###6.未来会一直维护，希望您看完觉得有用star一下，你的star是本猿学习动力哦
 跟健哥诚哥虐菜iOS游戏群：148929061   
 
 
