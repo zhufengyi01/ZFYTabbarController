@@ -2,10 +2,10 @@
 使用方法非常简单
 ###1.如何更换tabbar的选中和未选中图片
 点击进入CustomController.m
-> NSArray *normalImageArray =[NSArray arrayWithObjects:@"feed_tab_butten_normal.png",@"movie_tab_butten_normal.png",@"me_tab_butten_normal.png",nil];
+<pre><code>NSArray *normalImageArray =[NSArray arrayWithObjects:@"feed_tab_butten_normal.png",@"movie_tab_butten_normal.png",@"me_tab_butten_normal.png",nil];
 > NSArray *selectImageArray =[NSArray arrayWithObjects:@"feed_tab_butten_press.png",@"movie_tab_butten_press.png",@"me_tab_butten_press.png", nil];
 替换成自己的两套图片
-NSArray *titleArray =[NSArray arrayWithObjects:@"first",@"second",@"third", nil];
+NSArray *titleArray =[NSArray arrayWithObjects:@"first",@"second",@"third", nil];</code></pre>
 ###3. 如何把几个标签页换成自己的页面
 <//进入CustomController.m
 <//#import "FirstViewController.h"
