@@ -1,15 +1,12 @@
-## ZFYTabbarController
-<<<<<<< HEAD
+## ZFYTabbarControlleir
 使用方法非常简单
 ## 效果
-![Image](https://github.com/zhufengyi01/ZFYTabbarController/tabbar.gif)
+![Image](https://github.com/zhufengyi01/ZFYTabbarController/blob/master/tabbar.gif)
 
 #1.如何更换tabbar的选中和未选中图片
-=======
 <pre>这是一个使用系统的导航栏和标签栏定制的项目框架，实现了定制导航栏和标签栏的高度定制，并且支持全屏侧滑返回，
 可以用来参考，然后自己写一个自己定制的tabbarcontroller，或者直接使用这个框架，如果使用中遇到问题，加入下面的群问我哦</pre>
 ###1.如何更换tabbar的选中和未选中图片
->>>>>>> e6824999069f0cc4ac83f83f3566fd4706655146
 点击进入CustomController.m
 <pre><code>NSArray *normalImageArray =[NSArray arrayWithObjects:@"feed_tab_butten_normal.png",@"movie_tab_butten_normal.png",@"me_tab_butten_normal.png",nil]; NSArray *selectImageArray =[NSArray arrayWithObjects:@"feed_tab_butten_press.png",@"movie_tab_butten_press.png",@"me_tab_butten_press.png", nil];
 替换成自己的两套图片
