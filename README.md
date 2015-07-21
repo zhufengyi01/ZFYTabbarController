@@ -1,5 +1,8 @@
 ## ZFYTabbarController
 使用方法非常简单
+## 效果
+![Image](https://github.com/zhufengyi01/ZFYTabbarController/tabbar.gif)
+
 #1.如何更换tabbar的选中和未选中图片
 点击进入CustomController.m
 > NSArray *normalImageArray =[NSArray arrayWithObjects:@"feed_tab_butten_normal.png",@"movie_tab_butten_normal.png",@"me_tab_butten_normal.png",nil];

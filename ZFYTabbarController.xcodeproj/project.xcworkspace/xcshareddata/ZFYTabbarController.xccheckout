@@ -12,6 +12,8 @@
 	<dict>
 		<key>0DA2D9CAF1CBE09911D4EE1146F7970368917126</key>
 		<string>https://github.com/zhufengyi01/ZFYTabbarController.git</string>
+		<key>2FF6ADE4187ED97709EC6269322AC53505577DA4</key>
+		<string>https://github.com/zhufengyi01/CustomTabbarController.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>ZFYTabbarController.xcodeproj</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>0DA2D9CAF1CBE09911D4EE1146F7970368917126</key>
 		<string>../..</string>
+		<key>2FF6ADE4187ED97709EC6269322AC53505577DA4</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/zhufengyi01/ZFYTabbarController.git</string>
@@ -28,6 +32,14 @@
 	<string>0DA2D9CAF1CBE09911D4EE1146F7970368917126</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2FF6ADE4187ED97709EC6269322AC53505577DA4</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
