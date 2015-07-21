@@ -1,4 +1,4 @@
-## ZFYTabbarControlleir
+## ZFYTabbarController
 纯代码写的一个tabbarcontroller，全部使用系统的方法实现，支持返回按钮自定义图片，全屏侧滑，支持去掉tabbar文字。效果如下:
 ## 效果
 ![Image](https://github.com/zhufengyi01/ZFYTabbarController/blob/master/tabbar.gif)
